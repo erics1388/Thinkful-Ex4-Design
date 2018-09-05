@@ -17,18 +17,26 @@
 				</ul>
 			</nav>
 
-			<h1>Search Jobs</h1>
+			
 
 			<form action="/action_page.php">
-				  <input type="search" name="googlesearch">
-				  <!--<input type="submit">-->
+
+				<label for="googlesearch">Search Jobs</label>
+
+				<input type="search" name="googlesearch">
+
+				<input class="search-button" type='image' src="images/magnifying-glass.png" 
+					role="button" alt="submit"></input>
+				  
 			</form>
 
-			<form action="/action_page.php">
-				  <input type="search" name="googlesearch">
-			</form>
+			<section class="search-nav">
+				<a href="#">Prev</a>
 
-			<!--<button type="button" onclick="alert('Hello World!')">Click Me!</button>-->
+				<span>1 to 100 of 179</span>
+
+				<a href="#">Next</a>
+			</section>
 
 			<div class="final-list">
 				<ul>
@@ -36,6 +44,17 @@
 					<li>June 21 <a href="#">Frontend Developer</a> SoHo</li>
 					<li>June 20 <a href="#">Senior Python Developer/ Cofounder</a> Flatiron</li>
 				</ul>
+				<!---<span>June 22</span>
+				<a href ="#">Technical Project Manager</a>
+				<span>Midtown East</span>
+
+				<span>June 21</span>
+				<a href ="#">Frontend Developer</a>
+				<span>Soho</span>
+
+				<span>June 20</span>
+				<a href ="#">Senior Python Developer/ Cofounder</a>
+				<span>Flatiron</span>--->
 			</div>
 
 		</main>
